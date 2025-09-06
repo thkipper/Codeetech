@@ -1,0 +1,29 @@
+# Images Directory
+
+This directory contains all image assets for the website.
+
+## Recommended Images
+
+- `favicon.ico` - Website favicon (16x16, 32x32, 48x48)
+- `logo.png` - Company logo
+- `hero-bg.jpg` - Hero section background image
+- `about-image.jpg` - About page image
+- `service-1.svg` - Service 1 icon
+- `service-2.svg` - Service 2 icon
+- `service-3.svg` - Service 3 icon
+
+## Image Guidelines
+
+- Use WebP format for better compression when possible
+- Provide fallback images in JPG/PNG format
+- Optimize images for web (compress without losing quality)
+- Use appropriate alt text for accessibility
+- Consider responsive images with srcset for different screen sizes
+
+## Recommended Sizes
+
+- Hero images: 1920x1080px
+- About images: 800x600px
+- Service icons: 64x64px
+- Logo: 200x60px
+- Favicon: 32x32px

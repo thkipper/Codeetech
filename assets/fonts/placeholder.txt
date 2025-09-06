@@ -1,0 +1,37 @@
+# Fonts Directory
+
+This directory contains custom font files for the website.
+
+## Web Fonts
+
+You can add custom fonts here such as:
+- Google Fonts (download and host locally)
+- Custom font files (.woff2, .woff, .ttf, .otf)
+
+## Font Loading
+
+To use custom fonts, add them to your CSS:
+
+```css
+@font-face {
+  font-family: 'YourFont';
+  src: url('fonts/yourfont.woff2') format('woff2'),
+       url('fonts/yourfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+```
+
+## Recommended Fonts
+
+- Primary: System fonts (Segoe UI, Arial, sans-serif)
+- Headings: Montserrat, Open Sans, or similar
+- Body: Source Sans Pro, Lato, or similar
+
+## Font Optimization
+
+- Use font-display: swap for better performance
+- Preload critical fonts
+- Use font subsetting to reduce file size
+- Consider variable fonts for better flexibility
