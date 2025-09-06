@@ -1,0 +1,40 @@
+{
+  "name": "modern-website",
+  "version": "1.0.0",
+  "description": "A modern, responsive website built with HTML, CSS, and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server . --port=3000 --open=/index.html",
+    "build": "echo 'Build process would go here'",
+    "test": "echo 'Tests would go here'",
+    "lint": "echo 'Linting would go here'"
+  },
+  "keywords": [
+    "website",
+    "html",
+    "css",
+    "javascript",
+    "responsive",
+    "modern"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/modern-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/modern-website/issues"
+  },
+  "homepage": "https://github.com/yourusername/modern-website#readme"
+}
