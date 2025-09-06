@@ -1,0 +1,39 @@
+{
+  "name": "website-template",
+  "version": "1.0.0",
+  "description": "A modern, responsive website template with clean design and best practices",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=/",
+    "build": "echo 'No build process needed for static site'",
+    "test": "echo 'No tests specified'",
+    "lint": "npx htmlhint *.html pages/*.html",
+    "format": "npx prettier --write '**/*.{html,css,js,json,md}'"
+  },
+  "keywords": [
+    "website",
+    "template",
+    "responsive",
+    "html",
+    "css",
+    "javascript",
+    "static-site"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "prettier": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/website-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/website-template/issues"
+  },
+  "homepage": "https://yourusername.github.io/website-template"
+}
